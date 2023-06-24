@@ -8,6 +8,8 @@ def gcd(m,n) :
     print(cf)
     return print(cf[-1])
 
+
+#without the help of list
 def gcd_notlist(m,n) :
     for i in range(1,min(m,n)+1):
         if(m%i)==0 and (n%i)==0:
